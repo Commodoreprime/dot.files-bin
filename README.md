@@ -1,9 +1,6 @@
 # dot.files
----
 
 This is a repository for my scripts / config files that would be useful redeployed on other linux boxes.
-
----
 
 ## Directory tree design
 
@@ -19,9 +16,12 @@ For example a file located at `~/.local/bin/text2speech` would be mirrored under
   Format:
   ```json
   {
-  "<domain name>": { # The name is case sensitive and points to a directory which is on the same level as meta.json
-      "real_dir": "<directory or bash variable>" # This points to a real directory when deploying or syncing
+  "<domain name>": {
+      "real_dir": "<directory or bash variable>"
   },
   ...
   ```
+
+  - domain name: The name is case sensitive and points to a directory which is on the same level as meta.json
+    - real\_dir: This points to a real directory when deploying or syncing
 
