@@ -16,10 +16,10 @@ For example a file located at `~/.local/bin/text2speech` would be mirrored under
   Format:
   ```json
   {
-  "<domain name>": {
+    "<domain name>": {
       "real_dir": "<directory or bash variable>"
-  },
-  ...
+    }
+  }
   ```
 
   - domain name: The name is case sensitive and points to a directory which is on the same level as meta.json
