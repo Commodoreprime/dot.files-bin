@@ -1,9 +1,5 @@
 # dot.files - the programs
 
-This is a repository for my scripts / config files that would be useful redeployed on other linux boxes.
-
-Refer to [`STRUCTURE.md`](./STRUCTURE.md) for dotfile repo directory structure details.
-
 This repository contains management software and information for managing dotfiles.
 
 ## Implementation
