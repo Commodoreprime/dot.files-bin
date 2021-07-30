@@ -1,8 +1,0 @@
-{
-  "home": {
-    "real": "$HOME/.local/var/dotfile-test"
-  },
-  "system": {
-    "real": "/"
-  }
-}
