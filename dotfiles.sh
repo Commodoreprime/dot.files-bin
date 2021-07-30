@@ -18,6 +18,6 @@ options:
 
 case "$1" in
     -d|--deploy) shift 2
-    python3 .bin/manage ;;
+    python3 ./manage ;;
     *) helpfile ;;
 esac
